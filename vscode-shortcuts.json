@@ -1,0 +1,50 @@
+[{
+    "key": "ctrl+k ctrl+d",
+    "command": "editor.action.format"
+  },
+  {
+    "key": "ctrl+alt+n",
+    "command": "code-runner.run"
+  },
+  {
+    "key": "ctrl+.",
+    "command": "editor.action.quickFix"
+  },
+  {
+    "key": "ctrl+a",
+    "command": "editor.action.selectAll"
+  },
+  {
+    "key": "ctrl+x",
+    "command": "editor.action.clipboardCutAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+v",
+    "command": "editor.action.clipboardPasteAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+c",
+    "command": "editor.action.clipboardCopyAction",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+y",
+    "command": "redo",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+r",
+    "command": "workbench.action.nextEditor"
+  },
+  {
+    "key": "ctrl+shift+r",
+    "command": "workbench.action.previousEditor"
+  },
+  { "key": "ctrl+q", "command": "workbench.action.openNextRecentlyUsedEditorInGroup" },
+  { "key": "ctrl+shift+q", "command": "workbench.action.openPreviousRecentlyUsedEditorInGroup" },
+  { "key": "ctrl+f", "command": "actions.find" },
+  { "key": "ctrl+w", "command": "workbench.action.closeActiveEditor" },
+  { "key": "ctrl+e", "command": "workbench.action.quickOpen" }
+]
